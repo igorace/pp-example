@@ -14,7 +14,7 @@ export async function getServerSideProps() {
   return { props: { data } }
 }
 
-export default function Home({data}) {
+export default function Home({data}: any) {
   return (
     <>
       <Head>
